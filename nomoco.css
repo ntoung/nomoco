@@ -1,0 +1,185 @@
+nav {
+    height: 150px; 
+    padding: 0 30px;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+
+hr {
+    width: 100%;
+    border-bottom: 1px solid #ddd;   
+}
+
+section:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -150px; 
+  height: 150px; 
+  visibility: hidden; 
+}
+
+section:last-of-type {
+    height: 80vh;
+}
+
+.author {
+    text-align: right;
+    font-size: small;
+    font-style: italic;
+}
+
+.citation {
+    text-align: left;
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+
+
+.glyphicon {
+    margin-right: .5em;
+}
+
+.region {
+    margin: -.1em 0 0 1ex;
+}
+
+.c1 {
+    color: #064780;
+}
+.c2 {
+    color: #0854c7;
+}
+.c3 {
+    color: #a0c2de;
+}
+.c4 {
+    color: #cdefff;
+}
+.c5 {
+    color: #ededf4;
+}   
+
+
+
+@media all and (min-width: 470px){
+    #logo {
+        margin-top: 2em;
+        width: 17em;
+    }
+    
+}
+
+@media (max-width: 470px) {
+
+    #logo {
+        margin-top: 1em;
+        width: 15em;
+       
+        
+    }
+    
+}
+
+
+.menu {
+    
+}
+
+    .menu > li {
+        color: white;
+        font-size: 2em;
+        background-color: black;
+        margin: 5px 3px;
+        border-radius: 20px 5px;
+    }
+
+    .menu > li:hover {
+        background-color: #064780;  
+    }
+
+    .menu > li > a {
+        color: white !important;
+        font-weight: bold;
+        font-size: 1ex;
+        padding: 10px;
+       
+    }
+
+    .menu > li > a:hover {    
+        text-decoration: none;   
+
+    }
+
+    #social-media{
+        background: none;
+        margin: 0 0 0 30em;
+    }
+
+
+.fa { 
+    color: black;
+    font-size: 2em;
+}
+
+.fa:hover {
+    color: #064780; 
+}
+
+
+
+.collapsing .in {
+    margin-top: 250px;
+}
+
+
+
+#site-wrapper {
+    margin-top:150px;
+}
+
+blockquote {
+    font-size: 1em
+}
+
+
+.collapse.in, .collapsing { 
+    border-top: 0;
+    
+    margin: 100px 0px;
+    background-color: inherit;
+}
+
+
+#specs {
+    width:90%
+}
+
+#unit {
+    text-align: right;
+    font-weight: bold;
+}
+
+#dim {
+    text-align: center;   
+}
+
+#product-img { 
+    height: 140px;
+    width: 200px;
+}
+
+
+.prod-dim > hr {
+    border-top: 0px;
+    padding-top: 20px;
+}
